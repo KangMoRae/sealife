@@ -1,0 +1,163 @@
+@charset "utf-8";
+
+/*해더*/
+#header{
+    position:relative;
+    padding:35px 0;
+}
+
+.logo{
+    margin-left:80px;
+}
+.logo h1{}
+.logo h1 a{}
+.logo h1 img{}
+
+.gnb{
+    position:absolute;
+    top:35px;
+    right:80px;
+    text-align:center;
+}
+.gnb li{
+    float:left;
+    margin:0 50px;
+}
+.gnb .on{
+    text-align:center;
+    display:none;
+}
+
+.gnb li:hover a{
+    color:#0c3475;
+}
+.gnb li:hover .off{display:none;}
+.gnb li:hover .on{
+    display:inline-block;
+}
+
+.gnb li a{
+    width:100%;
+    height:100%;
+    display:block;
+}
+.gnb li p{
+    padding-top:10px;
+}
+.gnb li img{
+}
+
+/*패널(모바일뷰)*/
+
+.panel{
+    position:absolute;
+    right:10px;
+    top:0;
+}
+
+.panel a::before,.panel span,.panel a::after{
+    content:"";
+    display:block;
+    width:30px;
+    height:2px;
+    background:#150481;
+    margin:8px auto;
+    text-indent:-9999px;
+}
+.panel span{
+    width:25px;
+}
+
+
+.panel a{
+    display:block;
+    height:100%;
+}
+
+.panelBg{
+    position:fixed;
+    background-color:rgba(0,0,0,0.8);
+    right:0;
+    top:0;
+    width:100%;
+    height:100%;
+}
+
+.panelMenu{
+    position:fixed;
+    right:0;
+    top:0;
+    background:#4169e1;
+    height:100%;
+    font-size:16px;
+    line-height:50px;
+    padding-top:60px;
+    width:0px;
+    overflow:hidden;
+    transition:width 0.5s;
+    text-align:center;
+}
+.panelMenu a{color:#fff;}
+.panelMenu li{
+    text-align:left;
+    margin-left:30px;
+    width:200px;
+}
+
+
+.shown .panel span {
+  background:transparent;
+}
+
+.shown .panel a::before {
+  top: 50%;
+  transform: rotate(45deg);
+}
+
+.shown .panel a::after {
+  bottom: 50%;
+  transform: rotate(-45deg);
+}
+
+
+
+/*푸터*/
+#footer{
+    background:#0c3475;
+    padding-top:40px;
+    padding-bottom:30px;
+}
+#footer .inner{
+    position:relative;
+}
+#footer h1{
+    padding-bottom:20px;
+}
+#footer h1 a{}
+
+#footer p{
+    font-size:12px;
+    font-weight:100;
+    color:#fff;
+    line-height:20px;
+    padding:10px 0;
+}
+#footer p{}
+.snsIcon{
+    position:absolute;
+    top:0;
+    right:0;
+}
+.snsIcon a{
+    margin:0 5px; 
+}
+.snsIcon img{}
+
+#footer span{
+    font-size:12px;
+    font-weight:100;
+    font-family:'NotoSans','sans-serif';
+    color:#fff;
+    line-height:20px;
+}
+
