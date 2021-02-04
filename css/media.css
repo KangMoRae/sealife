@@ -43,6 +43,7 @@ body{min-width:auto;}
     }
     .sliderM img{
         width:100%;
+        z-index:-
     }
     
     .slick-dots{
@@ -63,6 +64,13 @@ body{min-width:auto;}
     .panel{
         z-index:1;
     }
+    .panelBg{
+        z-index:1;
+    }
+    .panelMenu{
+        z-index:1;
+    }
+    
     
     
     /*메인컨텐츠01*/
@@ -106,7 +114,8 @@ body{min-width:auto;}
     /*메인컨텐츠02*/
     .con02Ltxt{
         margin-left:20px;
-        width:100%;
+        width:340px;
+        background-position:90%;
     }
     .con02Ltxt p{
         font-size:16px;
@@ -176,7 +185,7 @@ body{min-width:auto;}
     }
     
     .con03Rtxt{
-        width:100%;
+        width:340px;
         float:none;
         text-align:start;
         margin-left:20px;
@@ -186,7 +195,7 @@ body{min-width:auto;}
         padding:30px 0;
     }
     .con03Rtxt h3{
-        background-position:80%;
+        background-position:90%;
     }
     .leftImgM{
         background:none;
