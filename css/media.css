@@ -13,7 +13,7 @@ body{min-width:auto;}
     .aBoxM,.con02ListM,.moreBtnM,.leftImgM,.mainCon04 .con04TxtM,.sliderM,.lazyM,.panel,.panelBg,.panelMenu,.con04ArrowM{display:block;}
     
     /*모바일에서 안보임*/
-    .gnb,.sliderImg,.con01Box .aBox,.con02List,.moreBtn,.con03List,.leftImg,.mainCon03 .moreBtn,.mainCon04 p,#footer h1,.slider,.mainSlider h2,.leftArrow,.rightArrow,.lazy,.con04Arrow,#footer span{display:none;}
+    .gnb,.sliderImg,.con01Box .aBox,.con02List,.moreBtn,.con03List,.leftImg,.mainCon03 .moreBtn,.mainCon04 p,#footer h1,.slider,.mainSlider h2,.leftArrow,.rightArrow,.lazy,.con04Arrow,#footer span,.mainSlider{display:none;}
     
     
     #header{padding:0;}
@@ -30,6 +30,7 @@ body{min-width:auto;}
     /*메인슬라이더*/
     
     .mainSlider{
+        width:100%;
         height:auto;
         z-index:-4;
         margin:0;
@@ -41,8 +42,6 @@ body{min-width:auto;}
     .sliderM .slick-slider{
     }
     .sliderM img{
-        left:50%;
-        margin-left:-50%;
         width:100%;
     }
     
@@ -55,6 +54,10 @@ body{min-width:auto;}
     .slick-dots li button{
         width:13px;
         height:13px;
+    }
+    
+    .slick-slider .slick-track{
+        width:100%;
     }
     
     .panel{
@@ -102,7 +105,8 @@ body{min-width:auto;}
     
     /*메인컨텐츠02*/
     .con02Ltxt{
-        margin-left:30px;
+        margin-left:20px;
+        width:100%;
     }
     .con02Ltxt p{
         font-size:16px;
@@ -172,15 +176,17 @@ body{min-width:auto;}
     }
     
     .con03Rtxt{
+        width:100%;
         float:none;
         text-align:start;
-        margin-left:30px;
+        margin-left:20px;
+        box-sizing:border-box;
     }
     .con03Rtxt p{
         padding:30px 0;
     }
     .con03Rtxt h3{
-        background-position:90%;
+        background-position:80%;
     }
     .leftImgM{
         background:none;

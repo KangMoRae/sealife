@@ -99,6 +99,9 @@
     outline:none;
 }
 
+.slick-slider .slick-track{
+        width:100%;
+}
 
 
 /*메인컨텐츠01*/
