@@ -43,7 +43,6 @@ body{min-width:auto;}
     }
     .sliderM img{
         width:100%;
-        z-index:-
     }
     
     .slick-dots{
@@ -53,8 +52,6 @@ body{min-width:auto;}
     }
     
     .slick-dots li button{
-        width:13px;
-        height:13px;
     }
     
     .slick-slider .slick-track{
